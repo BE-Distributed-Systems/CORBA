@@ -1,0 +1,12 @@
+module edu_ait_ds_corba {
+
+interface Calculator{
+
+	long add(in long a, in long b);
+	long subtract(in long a, in long b);
+	long multiply(in long a, in long b);
+	long divide(in long a, in long b);
+	oneway void shutdown();
+};
+
+};
